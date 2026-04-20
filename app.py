@@ -1,29 +1,21 @@
 import streamlit as st
-import requests
-import json
+from huggingface_hub import InferenceClient
 
 st.title("🎓 AI Placement Assistant")
 
-api_key = st.text_input("Enter your API Key:", type="password")
+# Use a free, high-performance model
+client = InferenceClient("mistralai/Mistral-7B-Instruct-v0.2")
+
 user_input = st.text_input("Ask me about placements:")
 
 if st.button("Get Answer"):
-    if api_key and user_input:
-        # We are using the v1beta endpoint directly
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
-        headers = {'Content-Type': 'application/json'}
-        data = {"contents": [{"parts": [{"text": user_input}]}]}
-        
+    if user_input:
         try:
-            response = requests.post(url, headers=headers, json=data)
-            result = response.json()
-            
-            if response.status_code == 200:
-                answer = result['candidates'][0]['content']['parts'][0]['text']
-                st.write(answer)
-            else:
-                st.error(f"Error {response.status_code}: {result.get('error', {}).get('message', 'Unknown Error')}")
+            # Generate response
+            response = client.text_generation(user_input, max_new_tokens=250)
+            st.write(response)
         except Exception as e:
-            st.write(f"An error occurred: {e}")
+            st.error("Error: Could not connect to the model. Try again in a few seconds.")
+            st.write(f"Details: {e}")
     else:
-        st.warning("Please enter both the API Key and a question.")
+        st.warning("Please ask a question.")
