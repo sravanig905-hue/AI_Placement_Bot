@@ -1,0 +1,104 @@
+[
+  {
+    "role": "user",
+    "text": "hi help me to prepare the jobs iam fresher",
+    "time": "2026-03-29T08:47:05.585653",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "assistant",
+    "text": "Here's how to prepare for your job search as a fresher:\n\n1.  **Craft a Strong Resume:** Highlight academic projects, internships, and relevant skills.\n2.  **Identify Your Skills & Interests:** Pinpoint your strengths and desired career path.\n3.  **Research Target Roles/Industries:** Understand job requirements and company cultures.\n4.  **Practice Interview Skills:** Prepare for common questions and mock interviews.\n5.  **Build a Portfolio/Projects:** (If applicable) Showcase your practical work and abilities.\n6.  **Utilize Job Boards & Networking:** Actively search and connect with professionals.",
+    "time": "2026-03-29T08:47:09.148776",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "user",
+    "text": "aptitude prepare avudham anukuntunna topic cheptava",
+    "time": "2026-03-29T08:48:17.887849",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "assistant",
+    "text": "మీరు aptitude కోసం సిద్ధం అవ్వాలనుకుంటే, ఈ ప్రధాన అంశాలపై దృష్టి పెట్టండి:\n\n*   **Quantitative Aptitude (సంఖ్యాత్మక సామర్థ్యం):**\n    *   శాతం (Percentages)\n    *   నిష్పత్తులు (Ratios & Proportions)\n    *   సమయం & పని (Time & Work)\n    *   వేగం, దూరం & సమయం (Speed, Distance & Time)\n    *   లాభం & నష్టం (Profit & Loss)\n    *   సగటులు (Averages)\n    *   సంఖ్యా వ్యవస్థలు (Number Systems)\n    *   డేటా విశ్లేషణ (Data Interpretation)\n    *   వడ్డీలు (Simple & Compound Interest)\n*   **Logical Reasoning (తార్కికత):**\n    *   సంఖ్య/అక్షర శ్రేణులు (Number/Alphabet Series)\n    *   కోడింగ్-డీకోడింగ్ (Coding-Decoding)\n    *   రక్త సంబంధాలు (Blood Relations)\n    *   పజిల్స్ (Puzzles)\n    *   సిల్లోగిసమ్స్ (Syllogisms)\n    *   అనలాజీలు (Analogies)\n    *   సీటింగ్ అరేంజ్మెంట్స్ (Seating Arrangements)\n*   **Verbal Ability (భాషా సామర్థ్యం):**\n    *   రీడింగ్ కాంప్రహెన్షన్ (Reading Comprehension)\n    *   గ్రామర్ (Grammar)\n    *   పదజాలం (Vocabulary - Synonyms, Antonyms)\n    *   సెంటెన్స్ కరెక్షన్ (Sentence Correction)\n\nఈ అంశాలను ప్రాక్టీస్ చేయడం ద్వారా మీరు మంచి స్కోర్ సాధించగలరు.",
+    "time": "2026-03-29T08:48:23.388754",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "user",
+    "text": "aptitude prepare avudham anukuntunna topic cheptava",
+    "time": "2026-03-29T08:48:36.149555",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "assistant",
+    "text": "మీరు aptitude కోసం సిద్ధం అవ్వాలనుకుంటే, ఈ ప్రధాన అంశాలపై దృష్టి పెట్టండి:\n\n*   **Quantitative Aptitude (సంఖ్యాత్మక సామర్థ్యం):**\n    *   శాతం (Percentages)\n    *   నిష్పత్తులు (Ratios & Proportions)\n    *   సమయం & పని (Time & Work)\n    *   వేగం, దూరం & సమయం (Speed, Distance & Time)\n    *   లాభం & నష్టం (Profit & Loss)\n    *   సగటులు (Averages)\n    *   సంఖ్యా వ్యవస్థలు (Number Systems)\n    *   డేటా విశ్లేషణ (Data Interpretation)\n    *   వడ్డీలు (Simple & Compound Interest)\n*   **Logical Reasoning (తార్కికత):**\n    *   సంఖ్య/అక్షర శ్రేణులు (Number/Alphabet Series)\n    *   కోడింగ్-డీకోడింగ్ (Coding-Decoding)\n    *   రక్త సంబంధాలు (Blood Relations)\n    *   పజిల్స్ (Puzzles)\n    *   సిల్లోగిసమ్స్ (Syllogisms)\n    *   అనలాజీలు (Analogies)\n    *   సీటింగ్ అరేంజ్మెంట్స్ (Seating Arrangements)\n*   **Verbal Ability (భాషా సామర్థ్యం):**\n    *   రీడింగ్ కాంప్రహెన్షన్ (Reading Comprehension)\n    *   గ్రామర్ (Grammar)\n    *   పదజాలం (Vocabulary - Synonyms, Antonyms)\n    *   సెంటెన్స్ కరెక్షన్ (Sentence Correction)\n\nఈ అంశాలను ప్రాక్టీస్ చేయడం ద్వారా మీరు మంచి స్కోర్ సాధించగలరు.",
+    "time": "2026-03-29T08:48:38.697179",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "user",
+    "text": "ok thank you",
+    "time": "2026-03-29T08:48:56.361283",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "assistant",
+    "text": "మీకు స్వాగతం!",
+    "time": "2026-03-29T08:48:58.859602",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "user",
+    "text": "ok thank you",
+    "time": "2026-03-29T08:49:06.437394",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "assistant",
+    "text": "మీకు స్వాగతం! ఇంకేమైనా సహాయం కావాలంటే దయచేసి అడగండి.",
+    "time": "2026-03-29T08:49:08.379931",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "user",
+    "text": "i want road map daily",
+    "time": "2026-03-29T08:49:38.132892",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "assistant",
+    "text": "మీరు అడిగినట్లుగా, ఆప్టిట్యూడ్ తయారీకి ఒక సాధారణ రోజువారీ రోడ్‌మ్యాప్ ఇక్కడ ఉంది:\n\n*   **ఉదయం (1-2 గంటలు):**\n    *   **క్వాంటిటేటివ్ ఆప్టిట్యూడ్:** ఒక కొత్త టాపిక్‌ని నేర్చుకోండి/ప్రాక్టీస్ చేయండి (ఉదా. శాతం, నిష్పత్తులు).\n    *   **వెర్బల్ ఎబిలిటీ:** రీడింగ్ కాంప్రహెన్షన్ (RC) పాసేజ్‌లు, పదజాలం (Vocabulary) ప్రాక్టీస్ చేయండి.\n*   **సాయంత్రం (1-2 గంటలు):**\n    *   **లాజికల్ రీజనింగ్:** పజిల్స్, కోడింగ్-డీకోడింగ్ వంటి ఒక టాపిక్‌ని ప్రాక్టీస్ చేయండి.\n    *   **మిశ్రమ అభ్యాసం:** అన్ని విభాగాల నుండి మునుపటి ప్రశ్నపత్రాలను లేదా మిక్స్డ్ ప్రాక్టీస్ సెట్‌లను పరిష్కరించండి.\n*   **వారాంతంలో:**\n    *   **మాక్ టెస్ట్:** ఒక పూర్తి మాక్ టెస్ట్ రాయండి.\n    *   **విశ్లేషణ:** మీ బలహీనతలను విశ్లేషించి, వాటిపై దృష్టి పెట్టండి.\n\nప్రతి రోజు కనీసం 2-4 గంటలు కేటాయించడానికి ప్రయత్నించండి. స్థిరత్వం ముఖ్యం!",
+    "time": "2026-03-29T08:49:43.991185",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "user",
+    "text": "i want road map daily",
+    "time": "2026-03-29T08:50:09.593089",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "assistant",
+    "text": "మీరు రోజువారీ రోడ్‌మ్యాప్ అడిగారు. ప్లేస్‌మెంట్‌ల కోసం ఒక సాధారణ రోజువారీ రోడ్‌మ్యాప్ ఇక్కడ ఉంది:\n\n*   **Morning (1-2 hours):**\n    *   **Aptitude:** Focus on one section (e.g., Quantitative Aptitude - study a new topic or practice problems OR Verbal Ability - RC/Vocabulary).\n    *   **Technical Skills:** Solve 1-2 coding problems (Data Structures & Algorithms) OR learn a new technical concept (e.g., SQL, OS, OOPs).\n*   **Evening (1-2 hours):**\n    *   **Logical Reasoning:** Practice puzzles, data interpretation, or other logical reasoning topics.\n    *   **Interview Preparation:** Research common interview questions, practice communication, or work on soft skills.\n*   **Weekly (Weekends):**\n    *   **Mock Test:** Take a full-length mock test (Aptitude + Technical).\n    *   **Analysis:** Review your performance, identify weak areas, and plan for improvement.\n\nConsistency is key! Aim for 2-4 hours daily.",
+    "time": "2026-03-29T08:50:18.101542",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "user",
+    "text": "ok every day you should support me?",
+    "time": "2026-03-29T08:50:38.001222",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "assistant",
+    "text": "నేను మీకు ఎప్పుడైనా సహాయం చేయడానికి ఇక్కడ ఉన్నాను. మీకు ప్రశ్నలు ఉన్నప్పుడు లేదా సహాయం కావాలన్నప్పుడు అడగవచ్చు.\n\nమీరు అడిగినప్పుడల్లా నేను మీకు మద్దతు ఇస్తాను!",
+    "time": "2026-03-29T08:50:41.123669",
+    "model": "models/gemini-2.5-flash"
+  },
+  {
+    "role": "user",
+    "text": "ok every day you should support me?",
+    "time": "2026-03-29T08:50:53.121966",
+    "model": "models/gemini-2.5-flash"
+  }
+]
