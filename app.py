@@ -1,19 +1,29 @@
 import streamlit as st
-import google.generativeai as genai
+import requests
+import json
 
-st.title("AI Assistant")
+st.title("🎓 AI Placement Assistant")
+
 api_key = st.text_input("Enter your API Key:", type="password")
+user_input = st.text_input("Ask me about placements:")
 
-if api_key:
-    genai.configure(api_key=api_key)
-    # Using the most basic model available
-    model = genai.GenerativeModel("gemini-pro")
-    
-    prompt = st.text_input("Ask a question:")
-    if st.button("Get Answer"):
+if st.button("Get Answer"):
+    if api_key and user_input:
+        # We are using the v1beta endpoint directly
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+        headers = {'Content-Type': 'application/json'}
+        data = {"contents": [{"parts": [{"text": user_input}]}]}
+        
         try:
-            response = model.generate_content(prompt)
-            st.write(response.text)
+            response = requests.post(url, headers=headers, json=data)
+            result = response.json()
+            
+            if response.status_code == 200:
+                answer = result['candidates'][0]['content']['parts'][0]['text']
+                st.write(answer)
+            else:
+                st.error(f"Error {response.status_code}: {result.get('error', {}).get('message', 'Unknown Error')}")
         except Exception as e:
-            st.error("The API key is invalid or doesn't have Gemini access.")
-            st.write(f"Technical error: {e}")
+            st.write(f"An error occurred: {e}")
+    else:
+        st.warning("Please enter both the API Key and a question.")
